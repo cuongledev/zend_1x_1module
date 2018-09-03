@@ -1,0 +1,17 @@
+<?php echo $this->doctype();?>
+<html>
+    <head>
+        <?php
+        echo $this->headTitle();
+        echo $this->headMeta();
+        echo $this->headLink();
+        echo $this->headScript();
+        ?>
+    </head>
+    <body>
+    <h1>Zend Layout</h1>
+        <?php
+        echo $this->layout()->content;
+        ?>
+    </body>
+</html>

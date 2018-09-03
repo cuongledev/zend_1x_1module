@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configdata>
+    <infomation>
+        <webhost>www.example</webhost>
+        <database>
+            <adapter>pdo_mysql</adapter>
+            <params>
+                <host>localhost</host>
+                <username>root</username>
+                <password></password>
+                <dbname>shopping</dbname>
+            </params>
+        </database>
+    </infomation>
+    <data extends="infomation">
+        <webhost>www.example</webhost>
+        <database>
+            <adapter>pdo_mysql</adapter>
+            <params>
+                <host>localhost</host>
+                <username>root</username>
+                <password></password>
+                <dbname>shopping</dbname>
+            </params>
+        </database>
+    </data>
+</configdata>
